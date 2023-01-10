@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containers {
+  height: 100%;
+}
+header {
+  background-color: cornflowerblue;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+.inputs {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  background-color: lightblue;
+}
+input[type="text"] {
+  height: 30px;
+}
+button {
+  height: 30px;
+}
+.contain {
+  width: 100%;
+  min-height: 75vh;
+  border: solid rgb(0, 153, 255) 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fathDiv {
+  border: solid rgba(2, 31, 128, 0.932) 2px;
+  text-align: center;
+  border-radius: 50px;
+  margin: 5px;
+  min-width: 200px;
+  height: 220px;
+}
+.welcome {
+  padding: 3px 0 3px 0;
+}
+h3 {
+  font-size: 1.5em;
+  color: white;
+}
+h6 {
+  font-size: 1em;
+  color: white;
+}
+h2 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 45%;
+  background-color: white;
+}
